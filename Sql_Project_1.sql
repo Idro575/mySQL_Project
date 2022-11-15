@@ -96,7 +96,8 @@ and Salary > 60000
 ORDER by salary DESC ;
 
 
--- Let's narrow more the data by those with less Absences.
+Let's narrow more the data by those with less Absences.
+
 SELECT Employee_name,[POSITION] ,Salary, PerformanceScore,Absences
 ,DATEDIFF(YEAR , dateofhire, dateoftermination) AS Years_Employed
 ,DATEDIFF(YEAR,DOB,dateoftermination) AS Age
@@ -107,8 +108,9 @@ and Salary > 60000
 and Absences < 10
 ORDER by salary DESC ;
 
--- After narrowing my result, only 3 employees found unhappy but have worked longer with lesser absences and high salary.
--- Let's get to know more and dig a bit deeper about these 3 .
+After narrowing my result, only 3 employees found unhappy but have worked longer with lesser absences and high salary.
+Let's get to know more and dig a bit deeper about these 3 .
+
 SELECT Employee_name, Sex, Salary , MaritalDesc ,ManagerName ,RaceDesc 
 ,DATEDIFF(YEAR , dateofhire, dateoftermination) AS Years_Employed
 ,DATEDIFF(YEAR,DOB,dateoftermination) AS Age
@@ -122,9 +124,9 @@ ORDER by salary DESC ;
 
 
 
--- Conclusion:
--- There are many reason you can leave a job with an average salary of 69.000 but been "unhappy" should treated it seriously. 
--- On my finding, out of the 104 employees who have left 'unhappy', 3 were high paid female, fully meet their PerformanceScore, worked 10 years between them and 
--- aged between 29-32 with 18 days of Absences between them during their period of employment.
--- If I was part of this hr company, I would have contacted them to get more information then discuss with their reporting manager.
+Conclusion:
+There are many reason you can leave a job with an average salary of 69.000 but been "unhappy" should treated it seriously. 
+On my finding, out of the 104 employees who have left 'unhappy', 3 were high paid female, fully meet their PerformanceScore, worked 10 years between them and 
+aged between 29-32 with 18 days of Absences between them during their period of employment.
+If I was part of this hr company, I would have contacted them to get more information then discuss with their reporting manager.
 
