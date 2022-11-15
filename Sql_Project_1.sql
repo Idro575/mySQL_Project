@@ -67,6 +67,7 @@ WHERE TermReason = 'unhappy';
 
 -- Let's now answer the following question
 -- How long they worked for?
+
 SELECT Employee_name,[POSITION] ,Salary, PerformanceScore,Absences
 ,DATEDIFF(YEAR , dateofhire, dateoftermination) AS Years_Employed
 ,DATEDIFF(YEAR,DOB,dateoftermination) AS Age
@@ -76,6 +77,7 @@ ORDER by salary DESC ;
 
 
 -- Let'd get rid of those who didn't meet their PerformanceScore.
+
 SELECT Employee_name,[POSITION] ,Salary, PerformanceScore,Absences
 ,DATEDIFF(YEAR , dateofhire, dateoftermination) AS Years_Employed
 ,DATEDIFF(YEAR,DOB,dateoftermination) AS Age
@@ -86,6 +88,7 @@ ORDER by salary DESC ;
 
 
 -- Let's look at those whose salary above 60.000
+
 SELECT Employee_name,[POSITION] ,Salary, PerformanceScore,Absences
 ,DATEDIFF(YEAR , dateofhire, dateoftermination) AS Years_Employed
 ,DATEDIFF(YEAR,DOB,dateoftermination) AS Age
@@ -96,7 +99,7 @@ and Salary > 60000
 ORDER by salary DESC ;
 
 
-Let's narrow more the data by those with less Absences.
+--Let's narrow more the data by those with less Absences.
 
 SELECT Employee_name,[POSITION] ,Salary, PerformanceScore,Absences
 ,DATEDIFF(YEAR , dateofhire, dateoftermination) AS Years_Employed
@@ -108,8 +111,8 @@ and Salary > 60000
 and Absences < 10
 ORDER by salary DESC ;
 
-After narrowing my result, only 3 employees found unhappy but have worked longer with lesser absences and high salary.
-Let's get to know more and dig a bit deeper about these 3 .
+--After narrowing my result, only 3 employees found unhappy but have worked longer with lesser absences and high salary.
+--Let's get to know more and dig a bit deeper about these 3 .
 
 SELECT Employee_name, Sex, Salary , MaritalDesc ,ManagerName ,RaceDesc 
 ,DATEDIFF(YEAR , dateofhire, dateoftermination) AS Years_Employed
