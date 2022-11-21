@@ -1,6 +1,6 @@
 -----------------------------------------------------------------------------------------------------------------
 -- PROJECT 1:
--- This is an IT HR company who wants to know, 
+-- This is an IT HR company,a new management has taken over and wants to know, 
 -- 1- How many employee have left the company?, 
 -- 2- How long they have worked, their position,salary and performance?,
 -- 3- What was their reason of leaving?
