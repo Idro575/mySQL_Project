@@ -128,8 +128,11 @@ ORDER by salary DESC ;
 
 
 Conclusion:
-There are many reason you can leave a job with an average salary of 69.000 but been "unhappy" should treated it seriously. 
-On my finding, out of the 104 employees who have left 'unhappy', 3 were high paid female, fully meet their PerformanceScore, worked 10 years between them and 
-aged between 29-32 with 18 days of Absences between them during their period of employment.
-If I was part of this hr company, I would have contacted them to get more information then discuss with their reporting manager.
+
+
+There are many reasons you can leave a job that pays an average salary of 69.000 but being unhappy should be seriously considered. 
+On my finding, out of the 104 employees who left 'unhappy', 3 were high paid females, fully met their PerformanceScore, worked 10 years between them and 
+aged 29 to 32, with 18 days of absence between them during their period of employment.
+If I was part of this hr company, I would have contacted them to get more information in a attempt to rehire them back. 
+Furthermore, I would have spoken with their reporting manager.
 
