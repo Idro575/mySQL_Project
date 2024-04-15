@@ -135,7 +135,7 @@ discovered that out of the 104 employees who left due to dissatisfaction, three 
 They all met their performance expectations, collectively worked for a total of 10 years, and were between 
 the ages of 29 and 32, with a combined absence of 18 days during their employment. 
 
-If I were part of the new HR team, I would have reached out to them to gather more information in an effort 
+As the Analyst of the new team, I advise the HR to reach out to them to gather more information in an effort 
 to potentially rehire them. Additionally, I would have initiated conversations with their respective 
 reporting managers to gain further insights.
 
